@@ -1,7 +1,7 @@
 web:
   build: .
   volumes:
-    - .:/task_image_v2
+    - .:/main
 web_migrate:
   extends:
     service: web
